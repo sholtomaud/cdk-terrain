@@ -62,13 +62,17 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 ### Commits
 
-For commits, we use the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format.
+For commits, we use the [conventional commit](https://www.conventionalcommits.org/en/v1.0.0/) format. This is enforced via Husky hooks and is essential for our automated release process.
 
 ### Pull Requests
 
 Pull Request titles follow the following format:
 
 **Type(Affected_Component): Short description of PR**
+
+### AI Agents
+
+This repository is "AI-agent friendly". If you are using an AI assistant to contribute, please refer to the `agents.md` file in the root directory for specific guidance on our project structure and architectural patterns.
 
 Ensuring your PR titles follow this format helps us quickly identify the purpose of the PR and scope in which it contributes. Additionally, this format ensures our automatically generated CHANGELOG which uses these titles is properly descriptive.
 
