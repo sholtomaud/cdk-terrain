@@ -43,6 +43,13 @@ Refer to the [CDKTF documentation](https://developer.hashicorp.com/terraform/cdk
 
 - [Examples](https://cdktn.io/docs/examples-and-guides/examples): Reference example projects in every supported language and review explanatory videos and other resources.
 
+## Best in Class Production Standards
+
+This project follows high standards for production readiness:
+- **Zero-Vulnerability Policy:** We maintain a clean `yarn audit` report for all core dependencies.
+- **Observability:** Error tracking and performance monitoring are built into the CLI and CI/CD.
+- **Agent Friendly:** We provide structured guidance for AI-assisted development in `agents.md`.
+
 ## Community
 
 The development team would love your feedback to help guide the project.
